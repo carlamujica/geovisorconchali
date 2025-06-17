@@ -4188,7 +4188,15 @@
         {label: '<img src="legend/UV11_6.png" /> UV 40', layer: layer_UV11_6},
       ]
     },
-            {label: '<img src="legend/UV30_49.png" /> UV 30', layer: layer_UV30_49},
+		{
+  label: '<span style="display:inline-block; width:10px; height:10px; border-radius:50%; background-color:red; margin-right:5px;"></span>Barrio Vespucio Oriente',collapsed: true, selectAllCheckbox: true, children: [
+    {l{label: '<img src="legend/UV21_21.png" /> UV 21', layer: layer_UV21_21},
+            {label: '<img src="legend/UV22_20.png" /> UV 22', layer: layer_UV22_20},
+            {label: '<img src="legend/UV23_19.png" /> UV 23', layer: layer_UV23_19},
+            {label: '<img src="legend/UV24_18.png" /> UV 24', layer: layer_UV24_18},
+            {label: '<img src="legend/UV38_17.png" /> UV 38', layer: layer_UV38_17},},
+	  
+		{label: '<img src="legend/UV30_49.png" /> UV 30', layer: layer_UV30_49},
             {label: '<img src="legend/UV31_48.png" /> UV 31', layer: layer_UV31_48},
             {label: '<img src="legend/UV32_47.png" /> UV 32', layer: layer_UV32_47},
             {label: '<img src="legend/UV33_46.png" /> UV 33', layer: layer_UV33_46},
@@ -4216,11 +4224,6 @@
             {label: '<img src="legend/UV41_24.png" /> UV 41', layer: layer_UV41_24},
             {label: '<img src="legend/UV42_23.png" /> UV 42', layer: layer_UV42_23},
             {label: '<img src="legend/UV46_22.png" /> UV 46', layer: layer_UV46_22},
-            {label: '<img src="legend/UV21_21.png" /> UV 21', layer: layer_UV21_21},
-            {label: '<img src="legend/UV22_20.png" /> UV 22', layer: layer_UV22_20},
-            {label: '<img src="legend/UV23_19.png" /> UV 23', layer: layer_UV23_19},
-            {label: '<img src="legend/UV24_18.png" /> UV 24', layer: layer_UV24_18},
-            {label: '<img src="legend/UV38_17.png" /> UV 38', layer: layer_UV38_17},
             {label: '<img src="legend/UV13_16.png" /> UV 13', layer: layer_UV13_16},
             {label: '<img src="legend/UV17_15.png" /> UV 17', layer: layer_UV17_15},
             {label: '<img src="legend/UV18_14.png" /> UV 18', layer: layer_UV18_14},
@@ -4280,7 +4283,7 @@
 					var toggleLayerHeaderPointer = event.target.closest('.leaflet-layerstree-header-pointer span');
 					if (toggleLayerHeaderPointer) {
 						newLayersListHeight();
-					}
+					} 
 				});
 			}
             // Collapsed/Expanded at Start to apply new height
