@@ -1,0 +1,1 @@
+var json_EducacinSuperior_71 = {"type":"FeatureCollection","name":"EducacinSuperior_71","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"NOMBRE_INS":"IP AIEP","NOMBRE_INM":"Sede Santiago Norte","DIRECCION":"Américo Vespucio 1796"},"geometry":{"type":"Point","coordinates":[-70.680638,-33.367832]}}]}
